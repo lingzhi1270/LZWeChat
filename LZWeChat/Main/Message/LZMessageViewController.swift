@@ -2,7 +2,7 @@
 //  LZMessageViewController.swift
 //  LZWeChat
 //
-//  Created by lingzhi on 2017/6/21.
+//  Created by lingzhi on 2017/6/22.
 //  Copyright © 2017年 lingzhi. All rights reserved.
 //
 
@@ -10,19 +10,18 @@ import UIKit
 
 class LZMessageViewController: LZBaseViewController {
 
+    /**
+     *fileprivate: 使用 fileprivate 来把接口暴露到类的内部(因为文件内大部分情况下都只会有一个类)
+     */
+    @IBOutlet fileprivate weak var tableView: UITableView!
+   
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-    }
+    var actionFloatView: LZMessageActionFloatView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-    //添加导航标题
-    self.navigationController?.navigationBar.topItem?.title = "消息"
-    
-    self.view!.backgroundColor = UIColor.gray
+        
         
     }
 

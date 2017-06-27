@@ -31,12 +31,32 @@
 		A0659A7E1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A7C1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png */; };
 		A0659A811EFA4ED500A9EE4A /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A7F1EFA4ED500A9EE4A /* tabbar_meHL@2x.png */; };
 		A0659A821EFA4ED500A9EE4A /* tabbar_meHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A801EFA4ED500A9EE4A /* tabbar_meHL@3x.png */; };
-		A0659A891EFA529400A9EE4A /* LZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0659A881EFA529400A9EE4A /* LZMessageViewController.swift */; };
-		A0659A8B1EFA52A500A9EE4A /* LZContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0659A8A1EFA52A500A9EE4A /* LZContactViewController.swift */; };
-		A0659A8D1EFA52B400A9EE4A /* LZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0659A8C1EFA52B400A9EE4A /* LZDiscoverViewController.swift */; };
-		A0659A8F1EFA52C200A9EE4A /* LZMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0659A8E1EFA52C200A9EE4A /* LZMeViewController.swift */; };
+		A0B094031EFCF199008445FE /* barbuttonicon_addfriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094011EFCF198008445FE /* barbuttonicon_addfriends@2x.png */; };
+		A0B094041EFCF199008445FE /* barbuttonicon_addfriends@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094021EFCF198008445FE /* barbuttonicon_addfriends@3x.png */; };
+		A0B094061EFCF292008445FE /* ScanQRCodeAction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094051EFCF292008445FE /* ScanQRCodeAction@2x.png */; };
+		A0B094081EFCF381008445FE /* MessageRightTopBg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A0B094071EFCF381008445FE /* MessageRightTopBg.pdf */; };
+		A0B0940B1EFCF3B2008445FE /* contacts_add_newmessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094091EFCF3B2008445FE /* contacts_add_newmessage@2x.png */; };
+		A0B0940C1EFCF3B2008445FE /* contacts_add_newmessage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B0940A1EFCF3B2008445FE /* contacts_add_newmessage@3x.png */; };
+		A0B0940F1EFCF3DC008445FE /* barbuttonicon_add_cube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B0940D1EFCF3DC008445FE /* barbuttonicon_add_cube@2x.png */; };
+		A0B094101EFCF3DC008445FE /* barbuttonicon_add_cube@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B0940E1EFCF3DC008445FE /* barbuttonicon_add_cube@3x.png */; };
+		A0B094131EFCF3F9008445FE /* contacts_add_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094111EFCF3F9008445FE /* contacts_add_scan@2x.png */; };
+		A0B094141EFCF3F9008445FE /* contacts_add_scan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094121EFCF3F9008445FE /* contacts_add_scan@3x.png */; };
+		A0B094171EFCF414008445FE /* receipt_payment_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094151EFCF414008445FE /* receipt_payment_icon@2x.png */; };
+		A0B094181EFCF414008445FE /* receipt_payment_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094161EFCF414008445FE /* receipt_payment_icon@3x.png */; };
+		A0EDE95C1F00DE1D005C98F8 /* barbuttonicon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EDE9591F00DE1D005C98F8 /* barbuttonicon_add.png */; };
+		A0EDE95D1F00DE1E005C98F8 /* barbuttonicon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EDE95A1F00DE1D005C98F8 /* barbuttonicon_add@2x.png */; };
+		A0EDE95E1F00DE1E005C98F8 /* barbuttonicon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0EDE95B1F00DE1D005C98F8 /* barbuttonicon_add@3x.png */; };
 		A0F51EB81EFB9A67003250D3 /* LZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EB71EFB9A67003250D3 /* LZBaseViewController.swift */; };
 		A0F51EBA1EFB9D98003250D3 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EB91EFB9D98003250D3 /* LZNavigationController.swift */; };
+		A0F51EBD1EFBA7A2003250D3 /* LZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */; };
+		A0F51EBE1EFBA7A2003250D3 /* LZMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */; };
+		A0F51EC11EFBA7C2003250D3 /* LZContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EBF1EFBA7C2003250D3 /* LZContactViewController.swift */; };
+		A0F51EC21EFBA7C2003250D3 /* LZContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EC01EFBA7C2003250D3 /* LZContactViewController.xib */; };
+		A0F51EC51EFBA7D8003250D3 /* LZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EC31EFBA7D8003250D3 /* LZDiscoverViewController.swift */; };
+		A0F51EC61EFBA7D8003250D3 /* LZDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EC41EFBA7D8003250D3 /* LZDiscoverViewController.xib */; };
+		A0F51EC91EFBA7F0003250D3 /* LZMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EC71EFBA7F0003250D3 /* LZMeViewController.swift */; };
+		A0F51ECA1EFBA7F0003250D3 /* LZMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EC81EFBA7F0003250D3 /* LZMeViewController.xib */; };
+		A0F51ECD1EFBAC0C003250D3 /* LZMessageActionFloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51ECC1EFBAC0C003250D3 /* LZMessageActionFloatView.swift */; };
 		D6EACDB6D8EB2E0CDE0F83DE /* Pods_LZWeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19577B862B8AC608621385A2 /* Pods_LZWeChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,12 +110,32 @@
 		A0659A7C1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@3x.png"; sourceTree = "<group>"; };
 		A0659A7F1EFA4ED500A9EE4A /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
 		A0659A801EFA4ED500A9EE4A /* tabbar_meHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@3x.png"; sourceTree = "<group>"; };
-		A0659A881EFA529400A9EE4A /* LZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMessageViewController.swift; sourceTree = "<group>"; };
-		A0659A8A1EFA52A500A9EE4A /* LZContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZContactViewController.swift; sourceTree = "<group>"; };
-		A0659A8C1EFA52B400A9EE4A /* LZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZDiscoverViewController.swift; sourceTree = "<group>"; };
-		A0659A8E1EFA52C200A9EE4A /* LZMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMeViewController.swift; sourceTree = "<group>"; };
+		A0B094011EFCF198008445FE /* barbuttonicon_addfriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_addfriends@2x.png"; sourceTree = "<group>"; };
+		A0B094021EFCF198008445FE /* barbuttonicon_addfriends@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_addfriends@3x.png"; sourceTree = "<group>"; };
+		A0B094051EFCF292008445FE /* ScanQRCodeAction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQRCodeAction@2x.png"; sourceTree = "<group>"; };
+		A0B094071EFCF381008445FE /* MessageRightTopBg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MessageRightTopBg.pdf; sourceTree = "<group>"; };
+		A0B094091EFCF3B2008445FE /* contacts_add_newmessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_newmessage@2x.png"; sourceTree = "<group>"; };
+		A0B0940A1EFCF3B2008445FE /* contacts_add_newmessage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_newmessage@3x.png"; sourceTree = "<group>"; };
+		A0B0940D1EFCF3DC008445FE /* barbuttonicon_add_cube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add_cube@2x.png"; sourceTree = "<group>"; };
+		A0B0940E1EFCF3DC008445FE /* barbuttonicon_add_cube@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add_cube@3x.png"; sourceTree = "<group>"; };
+		A0B094111EFCF3F9008445FE /* contacts_add_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_scan@2x.png"; sourceTree = "<group>"; };
+		A0B094121EFCF3F9008445FE /* contacts_add_scan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_scan@3x.png"; sourceTree = "<group>"; };
+		A0B094151EFCF414008445FE /* receipt_payment_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "receipt_payment_icon@2x.png"; sourceTree = "<group>"; };
+		A0B094161EFCF414008445FE /* receipt_payment_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "receipt_payment_icon@3x.png"; sourceTree = "<group>"; };
+		A0EDE9591F00DE1D005C98F8 /* barbuttonicon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbuttonicon_add.png; sourceTree = "<group>"; };
+		A0EDE95A1F00DE1D005C98F8 /* barbuttonicon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add@2x.png"; sourceTree = "<group>"; };
+		A0EDE95B1F00DE1D005C98F8 /* barbuttonicon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add@3x.png"; sourceTree = "<group>"; };
 		A0F51EB71EFB9A67003250D3 /* LZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZBaseViewController.swift; sourceTree = "<group>"; };
 		A0F51EB91EFB9D98003250D3 /* LZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
+		A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMessageViewController.swift; sourceTree = "<group>"; };
+		A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZMessageViewController.xib; sourceTree = "<group>"; };
+		A0F51EBF1EFBA7C2003250D3 /* LZContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZContactViewController.swift; sourceTree = "<group>"; };
+		A0F51EC01EFBA7C2003250D3 /* LZContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZContactViewController.xib; sourceTree = "<group>"; };
+		A0F51EC31EFBA7D8003250D3 /* LZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZDiscoverViewController.swift; sourceTree = "<group>"; };
+		A0F51EC41EFBA7D8003250D3 /* LZDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZDiscoverViewController.xib; sourceTree = "<group>"; };
+		A0F51EC71EFBA7F0003250D3 /* LZMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMeViewController.swift; sourceTree = "<group>"; };
+		A0F51EC81EFBA7F0003250D3 /* LZMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZMeViewController.xib; sourceTree = "<group>"; };
+		A0F51ECC1EFBAC0C003250D3 /* LZMessageActionFloatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMessageActionFloatView.swift; sourceTree = "<group>"; };
 		A71A41F409B2F42EE15044D2 /* Pods-LZWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZWeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZWeChat/Pods-LZWeChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,8 +243,23 @@
 		A0659A621EFA4DE700A9EE4A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A0EDE9591F00DE1D005C98F8 /* barbuttonicon_add.png */,
+				A0EDE95A1F00DE1D005C98F8 /* barbuttonicon_add@2x.png */,
+				A0EDE95B1F00DE1D005C98F8 /* barbuttonicon_add@3x.png */,
+				A0B094011EFCF198008445FE /* barbuttonicon_addfriends@2x.png */,
+				A0B094071EFCF381008445FE /* MessageRightTopBg.pdf */,
+				A0B094111EFCF3F9008445FE /* contacts_add_scan@2x.png */,
+				A0B094121EFCF3F9008445FE /* contacts_add_scan@3x.png */,
+				A0B094021EFCF198008445FE /* barbuttonicon_addfriends@3x.png */,
+				A0B0940D1EFCF3DC008445FE /* barbuttonicon_add_cube@2x.png */,
+				A0B094151EFCF414008445FE /* receipt_payment_icon@2x.png */,
+				A0B094161EFCF414008445FE /* receipt_payment_icon@3x.png */,
+				A0B0940E1EFCF3DC008445FE /* barbuttonicon_add_cube@3x.png */,
+				A0B094091EFCF3B2008445FE /* contacts_add_newmessage@2x.png */,
+				A0B0940A1EFCF3B2008445FE /* contacts_add_newmessage@3x.png */,
 				A0659A7B1EFA4E8D00A9EE4A /* tabbar_contacts@2x.png */,
 				A0659A7C1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png */,
+				A0B094051EFCF292008445FE /* ScanQRCodeAction@2x.png */,
 				A0659A771EFA4E6D00A9EE4A /* tabbar_discoverHL@2x.png */,
 				A0659A781EFA4E6D00A9EE4A /* tabbar_discoverHL@3x.png */,
 				A0659A731EFA4E6500A9EE4A /* tabbar_mainframeHL@2x.png */,
@@ -239,7 +294,8 @@
 		A0659A841EFA523500A9EE4A /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				A0659A8A1EFA52A500A9EE4A /* LZContactViewController.swift */,
+				A0F51EBF1EFBA7C2003250D3 /* LZContactViewController.swift */,
+				A0F51EC01EFBA7C2003250D3 /* LZContactViewController.xib */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -247,7 +303,8 @@
 		A0659A851EFA523500A9EE4A /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				A0659A8C1EFA52B400A9EE4A /* LZDiscoverViewController.swift */,
+				A0F51EC31EFBA7D8003250D3 /* LZDiscoverViewController.swift */,
+				A0F51EC41EFBA7D8003250D3 /* LZDiscoverViewController.xib */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -255,7 +312,8 @@
 		A0659A861EFA523500A9EE4A /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				A0659A8E1EFA52C200A9EE4A /* LZMeViewController.swift */,
+				A0F51EC71EFBA7F0003250D3 /* LZMeViewController.swift */,
+				A0F51EC81EFBA7F0003250D3 /* LZMeViewController.xib */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -263,9 +321,19 @@
 		A0659A871EFA523500A9EE4A /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				A0659A881EFA529400A9EE4A /* LZMessageViewController.swift */,
+				A0F51ECB1EFBABDB003250D3 /* View */,
+				A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */,
+				A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		A0F51ECB1EFBABDB003250D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0F51ECC1EFBAC0C003250D3 /* LZMessageActionFloatView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,25 +449,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B094131EFCF3F9008445FE /* contacts_add_scan@2x.png in Resources */,
 				A0659A661EFA4E0300A9EE4A /* tabbar_discover@3x.png in Resources */,
+				A0B094031EFCF199008445FE /* barbuttonicon_addfriends@2x.png in Resources */,
+				A0EDE95D1F00DE1E005C98F8 /* barbuttonicon_add@2x.png in Resources */,
 				A0659A761EFA4E6500A9EE4A /* tabbar_mainframeHL@3x.png in Resources */,
+				A0B0940C1EFCF3B2008445FE /* contacts_add_newmessage@3x.png in Resources */,
 				A0659A711EFA4E5A00A9EE4A /* tabbar_mainframe@2x.png in Resources */,
 				A0659A691EFA4E0900A9EE4A /* tabbar_contactsHL@2x.png in Resources */,
+				A0B094181EFCF414008445FE /* receipt_payment_icon@3x.png in Resources */,
+				A0B094171EFCF414008445FE /* receipt_payment_icon@2x.png in Resources */,
 				A0659A6E1EFA4E4100A9EE4A /* tabbar_me@3x.png in Resources */,
 				A0659A7A1EFA4E6D00A9EE4A /* tabbar_discoverHL@3x.png in Resources */,
 				A0659A721EFA4E5A00A9EE4A /* tabbar_mainframe@3x.png in Resources */,
+				A0B0940B1EFCF3B2008445FE /* contacts_add_newmessage@2x.png in Resources */,
 				A0659A751EFA4E6500A9EE4A /* tabbar_mainframeHL@2x.png in Resources */,
+				A0F51ECA1EFBA7F0003250D3 /* LZMeViewController.xib in Resources */,
 				A0659A6D1EFA4E4100A9EE4A /* tabbar_me@2x.png in Resources */,
 				A0659A821EFA4ED500A9EE4A /* tabbar_meHL@3x.png in Resources */,
+				A0B094081EFCF381008445FE /* MessageRightTopBg.pdf in Resources */,
+				A0EDE95C1F00DE1D005C98F8 /* barbuttonicon_add.png in Resources */,
 				A0659A3B1EFA48EB00A9EE4A /* LaunchScreen.storyboard in Resources */,
+				A0F51EC61EFBA7D8003250D3 /* LZDiscoverViewController.xib in Resources */,
+				A0EDE95E1F00DE1E005C98F8 /* barbuttonicon_add@3x.png in Resources */,
 				A0659A811EFA4ED500A9EE4A /* tabbar_meHL@2x.png in Resources */,
+				A0B094101EFCF3DC008445FE /* barbuttonicon_add_cube@3x.png in Resources */,
 				A0659A651EFA4E0300A9EE4A /* tabbar_discover@2x.png in Resources */,
 				A0659A381EFA48EB00A9EE4A /* Assets.xcassets in Resources */,
 				A0659A791EFA4E6D00A9EE4A /* tabbar_discoverHL@2x.png in Resources */,
+				A0B094141EFCF3F9008445FE /* contacts_add_scan@3x.png in Resources */,
 				A0659A7D1EFA4E8D00A9EE4A /* tabbar_contacts@2x.png in Resources */,
 				A0659A6A1EFA4E0900A9EE4A /* tabbar_contactsHL@3x.png in Resources */,
 				A0659A361EFA48EB00A9EE4A /* Main.storyboard in Resources */,
+				A0F51EBE1EFBA7A2003250D3 /* LZMessageViewController.xib in Resources */,
+				A0B094041EFCF199008445FE /* barbuttonicon_addfriends@3x.png in Resources */,
 				A0659A7E1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png in Resources */,
+				A0F51EC21EFBA7C2003250D3 /* LZContactViewController.xib in Resources */,
+				A0B0940F1EFCF3DC008445FE /* barbuttonicon_add_cube@2x.png in Resources */,
+				A0B094061EFCF292008445FE /* ScanQRCodeAction@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,13 +559,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F51EC51EFBA7D8003250D3 /* LZDiscoverViewController.swift in Sources */,
 				A0659A611EFA4A7D00A9EE4A /* LZTabbarViewController.swift in Sources */,
-				A0659A8F1EFA52C200A9EE4A /* LZMeViewController.swift in Sources */,
-				A0659A8B1EFA52A500A9EE4A /* LZContactViewController.swift in Sources */,
 				A0659A331EFA48EB00A9EE4A /* ViewController.swift in Sources */,
-				A0659A8D1EFA52B400A9EE4A /* LZDiscoverViewController.swift in Sources */,
+				A0F51EBD1EFBA7A2003250D3 /* LZMessageViewController.swift in Sources */,
+				A0F51EC11EFBA7C2003250D3 /* LZContactViewController.swift in Sources */,
+				A0F51EC91EFBA7F0003250D3 /* LZMeViewController.swift in Sources */,
 				A0F51EB81EFB9A67003250D3 /* LZBaseViewController.swift in Sources */,
-				A0659A891EFA529400A9EE4A /* LZMessageViewController.swift in Sources */,
+				A0F51ECD1EFBAC0C003250D3 /* LZMessageActionFloatView.swift in Sources */,
 				A0659A311EFA48EB00A9EE4A /* AppDelegate.swift in Sources */,
 				A0F51EBA1EFB9D98003250D3 /* LZNavigationController.swift in Sources */,
 			);

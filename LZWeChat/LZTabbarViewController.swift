@@ -44,6 +44,8 @@ class LZTabbarViewController: UITabBarController {
         
         let navigationVCArray = NSMutableArray()
         for (index, controller) in viewControllerArray.enumerated() {
+            //添加标题
+            controller.title = titleArray.get(index:index)
             controller.tabBarItem!.title = titleArray.get(index:index)
             controller.tabBarItem!.image = normalImagesArray.get(index: index)
             controller.tabBarItem!.selectedImage = selectedImagesArray.get(index: index)
