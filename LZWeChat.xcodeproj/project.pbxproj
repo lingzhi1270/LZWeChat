@@ -31,6 +31,8 @@
 		A0659A7E1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A7C1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png */; };
 		A0659A811EFA4ED500A9EE4A /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A7F1EFA4ED500A9EE4A /* tabbar_meHL@2x.png */; };
 		A0659A821EFA4ED500A9EE4A /* tabbar_meHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0659A801EFA4ED500A9EE4A /* tabbar_meHL@3x.png */; };
+		A098B9821F01F66200BAD9D7 /* LZColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098B9811F01F66200BAD9D7 /* LZColor.swift */; };
+		A098B9841F01FF1200BAD9D7 /* UIBarButtonItem+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098B9831F01FF1200BAD9D7 /* UIBarButtonItem+Block.swift */; };
 		A0B094031EFCF199008445FE /* barbuttonicon_addfriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094011EFCF198008445FE /* barbuttonicon_addfriends@2x.png */; };
 		A0B094041EFCF199008445FE /* barbuttonicon_addfriends@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094021EFCF198008445FE /* barbuttonicon_addfriends@3x.png */; };
 		A0B094061EFCF292008445FE /* ScanQRCodeAction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B094051EFCF292008445FE /* ScanQRCodeAction@2x.png */; };
@@ -110,6 +112,8 @@
 		A0659A7C1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@3x.png"; sourceTree = "<group>"; };
 		A0659A7F1EFA4ED500A9EE4A /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
 		A0659A801EFA4ED500A9EE4A /* tabbar_meHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@3x.png"; sourceTree = "<group>"; };
+		A098B9811F01F66200BAD9D7 /* LZColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZColor.swift; sourceTree = "<group>"; };
+		A098B9831F01FF1200BAD9D7 /* UIBarButtonItem+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Block.swift"; sourceTree = "<group>"; };
 		A0B094011EFCF198008445FE /* barbuttonicon_addfriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_addfriends@2x.png"; sourceTree = "<group>"; };
 		A0B094021EFCF198008445FE /* barbuttonicon_addfriends@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_addfriends@3x.png"; sourceTree = "<group>"; };
 		A0B094051EFCF292008445FE /* ScanQRCodeAction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQRCodeAction@2x.png"; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 		A0659A241EFA48EA00A9EE4A = {
 			isa = PBXGroup;
 			children = (
+				A098B9801F01F5B700BAD9D7 /* Common */,
 				A0659A2F1EFA48EB00A9EE4A /* LZWeChat */,
 				A0659A831EFA523500A9EE4A /* Main */,
 				A0659A621EFA4DE700A9EE4A /* Resources */,
@@ -326,6 +331,16 @@
 				A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		A098B9801F01F5B700BAD9D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A098B9811F01F66200BAD9D7 /* LZColor.swift */,
+				A098B9831F01FF1200BAD9D7 /* UIBarButtonItem+Block.swift */,
+			);
+			name = Common;
+			path = LZWeChat/Common;
 			sourceTree = "<group>";
 		};
 		A0F51ECB1EFBABDB003250D3 /* View */ = {
@@ -561,8 +576,10 @@
 			files = (
 				A0F51EC51EFBA7D8003250D3 /* LZDiscoverViewController.swift in Sources */,
 				A0659A611EFA4A7D00A9EE4A /* LZTabbarViewController.swift in Sources */,
+				A098B9841F01FF1200BAD9D7 /* UIBarButtonItem+Block.swift in Sources */,
 				A0659A331EFA48EB00A9EE4A /* ViewController.swift in Sources */,
 				A0F51EBD1EFBA7A2003250D3 /* LZMessageViewController.swift in Sources */,
+				A098B9821F01F66200BAD9D7 /* LZColor.swift in Sources */,
 				A0F51EC11EFBA7C2003250D3 /* LZContactViewController.swift in Sources */,
 				A0F51EC91EFBA7F0003250D3 /* LZMeViewController.swift in Sources */,
 				A0F51EB81EFB9A67003250D3 /* LZBaseViewController.swift in Sources */,

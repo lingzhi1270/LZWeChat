@@ -22,6 +22,22 @@ class LZMessageViewController: LZBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor.viewBackgroundColor
+        self.navigationItem.rightButtonAction(UIImage.init(named: "barbuttonicon_add")!){
+            (Void)-> Void in self.actionFloatView.hide(!self.actionFloatView.isHidden)
+        }
+        
+        self.actionFloatView = LZMessageActionFloatView()
+//        self.actionFloatView.delegate = self
+        self.view.addSubview(self.actionFloatView)
+        self.actionFloatView.snp.makeConstraints { (make)-> Void in
+            make.edges.equalTo(UIEdgeInsetsMake(64, 0, 0, 0))
+            
+            
+        }
+        
+        
+        
         
     }
 
