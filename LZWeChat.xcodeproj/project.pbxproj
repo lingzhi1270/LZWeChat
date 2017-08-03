@@ -51,7 +51,6 @@
 		A0F51EB81EFB9A67003250D3 /* LZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EB71EFB9A67003250D3 /* LZBaseViewController.swift */; };
 		A0F51EBA1EFB9D98003250D3 /* LZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EB91EFB9D98003250D3 /* LZNavigationController.swift */; };
 		A0F51EBD1EFBA7A2003250D3 /* LZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */; };
-		A0F51EBE1EFBA7A2003250D3 /* LZMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */; };
 		A0F51EC11EFBA7C2003250D3 /* LZContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EBF1EFBA7C2003250D3 /* LZContactViewController.swift */; };
 		A0F51EC21EFBA7C2003250D3 /* LZContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F51EC01EFBA7C2003250D3 /* LZContactViewController.xib */; };
 		A0F51EC51EFBA7D8003250D3 /* LZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F51EC31EFBA7D8003250D3 /* LZDiscoverViewController.swift */; };
@@ -132,7 +131,6 @@
 		A0F51EB71EFB9A67003250D3 /* LZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZBaseViewController.swift; sourceTree = "<group>"; };
 		A0F51EB91EFB9D98003250D3 /* LZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZNavigationController.swift; sourceTree = "<group>"; };
 		A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZMessageViewController.swift; sourceTree = "<group>"; };
-		A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZMessageViewController.xib; sourceTree = "<group>"; };
 		A0F51EBF1EFBA7C2003250D3 /* LZContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZContactViewController.swift; sourceTree = "<group>"; };
 		A0F51EC01EFBA7C2003250D3 /* LZContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZContactViewController.xib; sourceTree = "<group>"; };
 		A0F51EC31EFBA7D8003250D3 /* LZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZDiscoverViewController.swift; sourceTree = "<group>"; };
@@ -328,7 +326,6 @@
 			children = (
 				A0F51ECB1EFBABDB003250D3 /* View */,
 				A0F51EBB1EFBA7A2003250D3 /* LZMessageViewController.swift */,
-				A0F51EBC1EFBA7A2003250D3 /* LZMessageViewController.xib */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -496,7 +493,6 @@
 				A0659A7D1EFA4E8D00A9EE4A /* tabbar_contacts@2x.png in Resources */,
 				A0659A6A1EFA4E0900A9EE4A /* tabbar_contactsHL@3x.png in Resources */,
 				A0659A361EFA48EB00A9EE4A /* Main.storyboard in Resources */,
-				A0F51EBE1EFBA7A2003250D3 /* LZMessageViewController.xib in Resources */,
 				A0B094041EFCF199008445FE /* barbuttonicon_addfriends@3x.png in Resources */,
 				A0659A7E1EFA4E8D00A9EE4A /* tabbar_contacts@3x.png in Resources */,
 				A0F51EC21EFBA7C2003250D3 /* LZContactViewController.xib in Resources */,

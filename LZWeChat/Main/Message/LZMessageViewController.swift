@@ -8,12 +8,12 @@
 
 import UIKit
 
-class LZMessageViewController: LZBaseViewController {
+class LZMessageViewController: LZBaseViewController,UITableViewDelegate,UITableViewDataSource {
 
     /**
      *fileprivate: 使用 fileprivate 来把接口暴露到类的内部(因为文件内大部分情况下都只会有一个类)
      */
-    @IBOutlet fileprivate weak var tableView: UITableView!
+     var tableView : UITableView?
    
     
     var actionFloatView: LZMessageActionFloatView!
@@ -23,8 +23,18 @@ class LZMessageViewController: LZBaseViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.viewBackgroundColor
+        
+        
+        self.tableView = UITableView.init(frame: self.view.bounds, style: UITableViewStyle.plain)
+        self.tableView?.backgroundColor = UIColor.red
+        self.tableView?.delegate = self
+        self.tableView?.dataSource = self
+        self.view.addSubview(self.tableView!)
+        
+        
         self.navigationItem.rightButtonAction(UIImage.init(named: "barbuttonicon_add")!){
-            (Void)-> Void in self.actionFloatView.hide(!self.actionFloatView.isHidden)
+            (Void) -> Void in
+            self.actionFloatView.hide(!self.actionFloatView.isHidden)
         }
         
         self.actionFloatView = LZMessageActionFloatView()
@@ -32,15 +42,29 @@ class LZMessageViewController: LZBaseViewController {
         self.view.addSubview(self.actionFloatView)
         self.actionFloatView.snp.makeConstraints { (make)-> Void in
             make.edges.equalTo(UIEdgeInsetsMake(64, 0, 0, 0))
-            
-            
+    
         }
-        
-        
-        
-        
     }
 
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    var cell = tableView.dequeueReusableCell(withIdentifier: "SwiftCell")
+        if (cell == nil) {
+        cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "SwiftCell")
+        }
+        cell?.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
+        cell?.textLabel?.text = "凌志"
+        return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60.0
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
