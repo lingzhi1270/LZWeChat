@@ -35,10 +35,14 @@ class LZTabbarViewController: UITabBarController {
         ]
         
         let viewControllerArray = [
-      LZMessageViewController.ts_initFromNib(),
-      LZContactViewController.ts_initFromNib(),
-      LZDiscoverViewController.ts_initFromNib(),
-      LZMeViewController.ts_initFromNib()
+//      LZMessageViewController.ts_initFromNib(),
+//      LZContactViewController.ts_initFromNib(),
+//      LZDiscoverViewController.ts_initFromNib(),
+//      LZMeViewController.ts_initFromNib()
+            LZMessageViewController(),
+            LZContactViewController(),
+            LZDiscoverViewController(),
+            LZMeViewController()
 
         ]
         
