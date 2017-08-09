@@ -13,6 +13,11 @@ class LZMessageViewController: LZBaseViewController,UITableViewDelegate,UITableV
     var actionFloatView: LZMessageActionFloatView!
     
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.actionFloatView.hide(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,15 +29,17 @@ class LZMessageViewController: LZBaseViewController,UITableViewDelegate,UITableV
                 self.navigationItem.rightButtonAction(UIImage.init(named: "barbuttonicon_add")!){
                     (Void) -> Void in
                     self.actionFloatView.hide(!self.actionFloatView.isHidden)
-                }
+                    
+            }
+        self.actionFloatView = LZMessageActionFloatView()
+        self.actionFloatView.delegate = self
+        self.view.addSubview(self.actionFloatView!)
+        self.actionFloatView.hide(false)
+        self.actionFloatView.snp.makeConstraints { (make)-> Void in
+            make.edges.equalTo(UIEdgeInsetsMake(64, 0, 0, 0))
+            
+        }
         
-                self.actionFloatView = LZMessageActionFloatView()
-        //        self.actionFloatView.delegate = self
-                self.view.addSubview(self.actionFloatView)
-                self.actionFloatView.snp.makeConstraints { (make)-> Void in
-                    make.edges.equalTo(UIEdgeInsetsMake(64, 0, 0, 0))
-        
-                }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -57,7 +64,7 @@ class LZMessageViewController: LZBaseViewController,UITableViewDelegate,UITableV
     }
     
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 60.0
+            return 70.0
         }
     
     override func didReceiveMemoryWarning() {
@@ -65,4 +72,21 @@ class LZMessageViewController: LZBaseViewController,UITableViewDelegate,UITableV
         
     }
     
+}
+
+// MARK: - @protocol ActionFloatViewDelegate
+extension LZMessageViewController: ActionFloatViewDelegate {
+    func floatViewTapItemIndex(_ type: ActionFloatViewItemType) {
+    
+        switch type {
+        case .groupChat:
+            break
+        case .addFriend:
+            break
+        case .scan:
+            break
+        case .payment:
+            break
+        }
+    }
 }
